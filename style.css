@@ -1,0 +1,140 @@
+.body/*fundo*/
+{
+  font-family: 'Nunito', sans-serif;
+  background-color: #14281D;
+}
+.img
+{
+  width: 319px;
+  height: 319px;
+  border-radius: 15px;
+}
+.h3 h2
+{
+  font-size: 50px white;
+  color: #F1F5F2;
+  text-align: center;
+  margin-top: -20;
+  line-height: 0;
+}
+.h1
+{
+  color: white;
+  font-size:20px;
+   font-weight: bold;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2
+{
+  color: white;
+  font-size:30px;
+   font-weight: bold;
+  text-align: center;
+  font-weight: bold;
+}
+.p
+{
+  color: white;
+  font-size:25px;
+  background-color: #c2a878;
+  border-radius: 15px;
+  border: 5px solid white;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+.logo
+{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.logo img
+{
+  width: 150px;
+  height: 150px;
+  border: 7px solid white;
+  border-radius: 150px;
+  flex: 0 0 auto;
+}
+.contatos
+{
+  text-align: center;
+}
+.contatos img
+{
+  max-width: 30px;
+  max-height: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.rodape
+{
+  text-align: center;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+  .link/*Links*/
+  {
+    background-color: #c2a878;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    border: 5px solid white;
+    text-align: center;
+  }
+.link a/*links*/
+{
+  color: white;
+ font-size:30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 5px;
+    font-weight: bold;
+  display: block;
+  text-align: center;
+}
+
+/*bglh de pc*/
+@media (min-width: 769px) {
+  .body {
+    padding: 20px;
+  }
+  
+  .p {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    text-align: left;
+  }
+  
+  .p img {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .contatos img {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .link {
+    max-width: 400px;
+    margin: 30px auto;
+  }
+}
